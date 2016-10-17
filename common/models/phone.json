@@ -1,0 +1,25 @@
+{
+  "name": "Phone",
+  "plural": "Phones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "OS": {
+      "type": "number",
+      "required": true,
+      "default": 10
+    },
+    "Camera": {
+      "type": "number",
+      "required": true,
+      "default": 8
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
